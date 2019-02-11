@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test JQuery</title>
+    <script type="text/javascript" src="scripts/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="scripts/events_script.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table>
+            <tr>
+                <p>Please enter your name</p>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="NameTextBox" id="NameTextBox" value="Enter Some Text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select id="SexSelector">
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="O">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <input type="button" id="SubmitButton" value="Submit"></button>
+                    <!--
+                        old way
+                        <input type="button" id="SubmitButton" value="Submit onclick="SubmitButton_Click()"></button>
+                    -->
+                </td>
+            </tr>
+        </table>
+    </form>
+    <p id="output"></p>
+    <div id="myDiv" style="width:30px;height:30px"></div>
+</body>
+</html>
